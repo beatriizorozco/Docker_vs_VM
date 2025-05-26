@@ -1,0 +1,16 @@
+Consulta,Número,Tiempo
+count(u),1,4.100
+count(p CREATED),1,4.445
+count(p FCT),1,5.044
+count(u),2,4.006
+count(p CREATED),2,3.808
+count(p FCT),2,4.094
+count(u),3,3.838
+count(p CREATED),3,4.392
+count(p FCT),3,4.755
+count(u),4,3.931
+count(p CREATED),4,3.808
+count(p FCT),4,3.990
+count(u),5,4.064
+count(p CREATED),5,4.445
+count(p FCT),5,4.846
