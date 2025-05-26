@@ -74,7 +74,8 @@ Docker_vs_VM/
 │   └── Dockerfile
 │
 ├── proyecto.py
-└── README.md
+├── README.md
+└── Proyecto_de_evaluación-Docker_vs_VM.pdf
 ```
 
 ---
