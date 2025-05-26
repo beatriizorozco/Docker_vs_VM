@@ -49,24 +49,32 @@ Los contenedores ejecutan las aplicaciones de forma aislada pero compartiendo el
 
 ```bash
 Docker_vs_VM/
-├── docker/
-│   └── resultados_docker.csv
-├── vm/
-│   └── resultados_vm.csv
+├── notebooks/
+│   ├── comparacion_vm_docker.png
+│   └── vm_vs_docker_comparison.ipynb
+│
+├── results/
+│   ├── docker/
+│   │   ├── Screenshot from 2025-05-19 12-33-19.png
+│   │   ├── ...
+│   ├── vm/
+│   │   ├── results_1.jpeg
+│   │   ├── ...
+│
 ├── scripts/
-│   ├── cargar_datos.cypher
-│   ├── consultas_benchmark.cypher
+│   ├── analizar_resultados.py
 │   ├── benchmark.sh
-│   └── analizar_resultados.py
-├── graficas/
-│   ├── grafica_vm.png
-│   ├── grafica_docker.png
-│   └── comparacion_vm_docker.png
-├── comparar_resultados.py
-├── README.md
-├── memoria.docx
-├── .gitignore
-└── requirements.txt
+│   ├── cargar_datos.cypher
+│   ├── comparacion_vm_docker.png
+│   ├── consultas_benchmark.cypher
+│   ├── docker_setup.sh
+│   ├── resultados_docker.csv
+│   ├── resultados_vm.csv
+│   ├── vm_setup.sh
+│   └── Dockerfile
+│
+├── proyecto.py
+└── README.md
 ```
 
 ---
