@@ -48,17 +48,25 @@ Los contenedores ejecutan las aplicaciones de forma aislada pero compartiendo el
 ## 📂 Estructura del proyecto
 
 ```bash
-Neo4j-Benchmark-Project/
+Docker_vs_VM/
+├── docker/
+│   └── resultados_docker.csv
+├── vm/
+│   └── resultados_vm.csv
 ├── scripts/
 │   ├── cargar_datos.cypher
-│   └── consultas_benchmark.cypher
-├── resultados/
-│   ├── tiempos_vm.csv
-│   ├── tiempos_docker.csv
-│   └── grafico_comparativo.png
-├── proyecto.py
+│   ├── consultas_benchmark.cypher
+│   ├── benchmark.sh
+│   └── analizar_resultados.py
+├── graficas/
+│   ├── grafica_vm.png
+│   ├── grafica_docker.png
+│   └── comparacion_vm_docker.png
+├── comparar_resultados.py
 ├── README.md
-└── memoria.docx
+├── memoria.docx
+├── .gitignore
+└── requirements.txt
 ```
 
 ---
